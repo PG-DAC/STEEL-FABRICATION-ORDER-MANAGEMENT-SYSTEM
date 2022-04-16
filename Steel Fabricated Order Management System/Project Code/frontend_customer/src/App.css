@@ -1,0 +1,196 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.header {
+  background-color: #282c34;
+  color: azure;
+  width: auto;
+  height: 20vh;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: rgba(242,241,236,255);
+} 
+
+.nav-element{
+  color: white;
+  
+}
+
+.nav-item{
+  color: white;
+}
+.navi{
+  background-color: black;
+}
+.navi :hover{
+  color: wheat;
+  border: 2px solid #d0d0d0;
+}
+
+.viewprofile{
+  margin-block: 100px;
+}
+
+.viewprofile-item{
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.category-component{
+  background-color: aliceblue;
+  align-self: right;
+}
+
+
+
+
+
+.product-image{
+  width: 180px;
+  height: 180px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+
+.product-item{
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  
+}
+.product-item:hover{
+  background-color: ivory;
+  box-shadow: 2px 2px 2px rgb(180, 170, 170);
+}
+
+
+
+/* .cont-border {
+  border: 5px solid black;
+}
+.row-border{
+  border: red solid 3px;
+}
+
+.col-border{
+  border: green solid 3px;
+ 
+} */
+.product-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.product-details{
+  background-color: white;
+  margin: 20px;
+  padding: 10px;
+}
+
+.rating{
+  background-color: blue;
+  color: white;
+  display: inline-block
+}
+
+.item-detail {
+  font-size: 100%;
+  text-transform: capitalize;
+  letter-spacing: 0.8px;
+  font-weight: 600;
+  margin: 10px;
+}
+.review-container{
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
+}
+.review-item{
+  border: solid;
+  margin: 5px;
+  padding: 5px;
+  font-style: italic;
+}
+
+.cart-container{
+  background-color: white;
+  margin: 20px auto;
+  padding: 5px
+
+}
+
+.cart-item{
+  border: solid rgb(19, 20, 20) ;
+  font-weight: bold;
+  margin: 10px;
+}
+
+
+.icon {
+  width: 30px;
+}
+.icon :hover {
+  background-color: rgb(209, 222, 235);
+  border-radius: 5px;
+}
+
+.order-container{
+  padding: 10px;
+  background-color: white;
+  border: solid;
+  margin: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.empty-cart{
+  background-color: white;
+  padding: 20px;
+  font-size: large;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.form{
+  margin: 10px;
+  width: 50%;
+}

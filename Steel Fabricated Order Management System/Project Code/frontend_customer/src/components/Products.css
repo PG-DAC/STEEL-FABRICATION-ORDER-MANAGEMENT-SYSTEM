@@ -1,0 +1,35 @@
+.title {
+    font-weight: bold;
+  }
+  
+  .image {
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+  }
+  
+  .item-title {
+    font-size: 85%;
+    text-transform: capitalize;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .item-container
+  {
+    float: left;
+    margin: 15px
+  }
+  .item-container {
+    float: left;
+    margin: 15px;
+  }
+  
+  .slider-container {
+    clear: both;
+    padding-bottom: 20px;
+    border-bottom: solid lightgray 2px;
+    height: 230px;
+    margin-top: 20px;
+  }
